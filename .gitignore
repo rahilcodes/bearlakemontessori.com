@@ -1,0 +1,13 @@
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary & logs
+*.log
+tmp/
+.gemini/
+
+# Python cache
+__pycache__/
+*.py[cod]
