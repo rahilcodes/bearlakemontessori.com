@@ -761,3 +761,17 @@ a.ticket:hover{color:var(--ink);animation:blm-wiggle .6s ease forwards}
   .steps5{grid-template-columns:repeat(5,1fr)}
   .steps5>li,.steps5>li:nth-child(n+4){grid-column:auto}
 }
+
+/* ---------- Ten core principles (Approach page) ---------- */
+.principle{display:flex;flex-direction:column}
+.principle-top{display:flex;align-items:flex-start;justify-content:space-between;gap:12px}
+.principle .icon-tile{width:64px;height:64px;padding:6px}
+.principle-no{font-family:var(--display);font-weight:800;font-size:34px;line-height:1;letter-spacing:-.02em;color:transparent;-webkit-text-stroke:1.6px var(--ink);opacity:.75}
+.principle .h3{margin-top:18px;font-size:22px}
+.principle p{font-size:15px}
+@media (min-width:641px){.principles10{grid-template-columns:repeat(2,1fr)}}
+@media (min-width:1100px){.principles10{grid-template-columns:repeat(5,1fr)}.principle .h3{font-size:21px}}
+@media (max-width:640px){.principle .icon-tile{width:56px;height:56px}.principle-no{font-size:28px}}
+
+.person .portrait svg{width:62%;height:auto}
+.principle .icon-tile{padding:3px}

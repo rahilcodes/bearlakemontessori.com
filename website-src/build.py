@@ -29,7 +29,7 @@ NAV = [
     ]),
     ("Learning", [
         ("approach.html", "Our approach", "The Montessori method"),
-        ("programs.html", "Programs", "Ages 2 to 6, VPK and care"),
+        ("programs.html", "Programs", "Ages 1 to 6, VPK and care"),
         ("curriculum.html", "Curriculum", "The five areas of learning"),
     ]),
     ("School life", [
