@@ -775,3 +775,10 @@ a.ticket:hover{color:var(--ink);animation:blm-wiggle .6s ease forwards}
 
 .person .portrait svg{width:62%;height:auto}
 .principle .icon-tile{padding:3px}
+
+/* ---------- Myths, gently corrected (Montessori method page) ---------- */
+.myth{display:flex;flex-direction:column}
+.myth-label{display:inline-block;align-self:flex-start;margin:0;background:#fff;border:2px solid var(--ink);border-radius:999px;padding:2px 12px;font-weight:800;font-size:12px;letter-spacing:.08em;text-transform:uppercase;line-height:1.5}
+.myth-label--fact{margin-top:20px;background:var(--ink);color:var(--cream)}
+.card .myth-q{margin:14px 0 0;font-family:var(--display);font-weight:800;font-size:clamp(23px,2.1vw,28px);line-height:1.12;letter-spacing:-.01em;text-decoration:line-through;text-decoration-color:var(--orange);text-decoration-thickness:3px}
+.card .myth-a{margin:12px 0 0;font-size:16.5px;line-height:1.6}

@@ -28,7 +28,7 @@ NAV = [
         ("testimonials.html", "Testimonials", "Words from our families"),
     ]),
     ("Learning", [
-        ("approach.html", "Our approach", "The Montessori method"),
+        ("approach.html", "Montessori method", "How children learn here"),
         ("programs.html", "Programs", "Ages 1 to 6, VPK and care"),
         ("curriculum.html", "Curriculum", "The five areas of learning"),
     ]),
@@ -122,12 +122,12 @@ def footer():
       </div>
       <div>
         <h2>School hours</h2>
-        <p>Monday to Friday<br>7:15am to 6:00pm<br>Closed weekends</p>
+        <p>Monday to Friday<br>8:00am to 6:00pm<br>Early care from 7:30am<br>Closed weekends</p>
       </div>
       <div class="fc-explore">
         <h2>Explore</h2>
         <ul>
-          <li><a href="approach.html">Our approach</a></li>
+          <li><a href="approach.html">Montessori method</a></li>
           <li><a href="programs.html">Programs</a></li>
           <li><a href="admissions.html">Admissions</a></li>
           <li><a href="faq.html">FAQs</a></li>
@@ -136,7 +136,7 @@ def footer():
     </div>
     <nav class="footer-pills" aria-label="Footer">
       <a href="about.html">About us</a>
-      <a class="fp-extra" href="approach.html">Our approach</a>
+      <a class="fp-extra" href="approach.html">Montessori method</a>
       <a class="fp-extra" href="programs.html">Programs</a>
       <a href="curriculum.html">Curriculum</a>
       <a href="school-life.html">School life</a>
